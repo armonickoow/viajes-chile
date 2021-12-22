@@ -8,7 +8,7 @@
 nav{
     height: 70px;
     width: 100%;
-    background-color: #373a3c;
+    background-color: #000;
     
 }
 label.logo{
@@ -17,7 +17,7 @@ label.logo{
     color: white;
     padding: 0 100px;
     line-height: 80px;
-    font-family: 'Lobster', cursive;
+    
 
 }
 /*barra de inicio*/
