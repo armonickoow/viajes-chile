@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*navbar*/
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #373a3c;
+    
+}
+label.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+    font-family: 'Lobster', cursive;
+
+}
+/*barra de inicio*/
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+/*icono*/
+nav #icono{
+    color: white;
+    font-size: 30px;
+}
