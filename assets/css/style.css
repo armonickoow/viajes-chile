@@ -3,19 +3,20 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    background: #000;
 }
 /*navbar*/
 nav{
     height: 70px;
     width: 100%;
-    background-color: #000;
+    background-color: black;
     
 }
 label.logo{
     font-size: 30px;
     font-weight: bold;
     color: white;
-    padding: 0 100px;
+    
     line-height: 80px;
     
 
@@ -46,8 +47,38 @@ img.icono{
 /*quienes somos*/
 .q{
     text-align: center;
+    color: white;
 
 }
+.parrafo1{
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin: 50px;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+/*destacados*/
 .d{
     text-align: center;
+    color: white;
 }
+/*contacto*/
+.contacto{
+    text-align: center;
+    color: white;
+}
+.card-body{
+    color: white;
+}
+
+/*footer*/
+
+footer{
+    background: aqua;
+    text-align: left;
+    text-decoration: white;
+}
+
