@@ -39,7 +39,15 @@ nav a{
     border-radius: 3px;
 }
 /*icono*/
-nav #icono{
-    color: white;
-    font-size: 30px;
+img.icono{
+    margin-right: 3cm;
+}
+
+/*quienes somos*/
+.q{
+    text-align: center;
+
+}
+.d{
+    text-align: center;
 }
