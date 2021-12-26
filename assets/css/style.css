@@ -5,6 +5,9 @@
     list-style: none;
     background: #000;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*navbar*/
 nav{
     height: 70px;
@@ -75,10 +78,11 @@ img.icono{
 }
 
 /*footer*/
-
-footer{
-    background: aqua;
-    text-align: left;
-    text-decoration: white;
+#Footer{
+    background-color: aqua;
 }
 
+#Footer a{
+    color: white;
+    text-decoration: none;
+}
