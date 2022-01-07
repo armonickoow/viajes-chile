@@ -1,88 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    background: #000;
+:root {
+    --color-primary: #15aabf;
+    --bg-black: #000;
 }
-html{
-    scroll-behavior: smooth;
+  /* Utilidades */
+.color-first {
+    background-color: var(--color-primary);
 }
-/*navbar*/
-nav{
-    height: 70px;
-    width: 100%;
-    background-color: black;
-    
+.bg-black {
+    background-color: var(--bg-black);
 }
-label.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    
-    line-height: 80px;
-    
-
+hr.border-first {
+    background-color: var(--color-primary);
 }
-/*barra de inicio*/
-nav ul{
-    float: right;
-    margin-right: 40px;
+  /* Header */
+@media screen and (max-width: 380px) {
+    .text-logo {
+    font-size: 28px;
+    }
 }
-nav li{
-    display: inline-block;
-    margin: 0 8px;
-    line-height: 80px;
+.img-first,
+.img-second,
+.img-third {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
-nav a{
-    color: white;
-    font-size: 18px;
-    text-transform: uppercase;
-    border: 1px solid transparent;
-    padding: 7px 10px;
-    border-radius: 3px;
+.img-first {
+    background-image: url(../img/carousel1.jpg);
 }
-/*icono*/
-img.icono{
-    margin-right: 3cm;
+.img-second {
+    background-image: url(../img/carousel2.jpg);
 }
-
-/*quienes somos*/
-.q{
-    text-align: center;
-    color: white;
-
-}
-.parrafo1{
-    float: left;
-    width: 25%;
-    height: 25%;
-    margin: 50px;
-    padding: 1px;
-    text-align: center;
-    justify-content: center;
-    color: white;
-}
-/*destacados*/
-.d{
-    text-align: center;
-    color: white;
-}
-/*contacto*/
-.contacto{
-    text-align: center;
-    color: white;
-}
-.card-body{
-    color: white;
-}
-
-/*footer*/
-#Footer{
-    background-color: aqua;
-}
-
-#Footer a{
-    color: white;
-    text-decoration: none;
+.img-third {
+    background-image: url(../img/carousel3.jpg);
 }
